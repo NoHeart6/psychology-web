@@ -1,6 +1,54 @@
 {
     "packages": [
         {
+            "name": "heroku/heroku-buildpack-php",
+            "version": "v259",
+            "version_normalized": "259.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/heroku/heroku-buildpack-php.git",
+                "reference": "b27625c9b760101392b7a93d515422b4a9e77a7f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/b27625c9b760101392b7a93d515422b4a9e77a7f",
+                "reference": "b27625c9b760101392b7a93d515422b4a9e77a7f",
+                "shasum": ""
+            },
+            "time": "2024-11-22T04:46:43+00:00",
+            "bin": [
+                "bin/heroku-php-apache2",
+                "bin/heroku-php-nginx"
+            ],
+            "type": "library",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Zuelke",
+                    "email": "dz@heroku.com"
+                }
+            ],
+            "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP and Apache2/Nginx as on Heroku",
+            "homepage": "https://github.com/heroku/heroku-buildpack-php",
+            "keywords": [
+                "apache",
+                "apache2",
+                "foreman",
+                "heroku",
+                "nginx",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/heroku/heroku-buildpack-php/issues",
+                "source": "https://github.com/heroku/heroku-buildpack-php/tree/v259"
+            },
+            "install-path": "../heroku/heroku-buildpack-php"
+        },
+        {
             "name": "mongodb/mongodb",
             "version": "1.20.0",
             "version_normalized": "1.20.0.0",

@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => '__root__',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '9143abcdcec93854a31b4933f771354cd66c550a',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,11 +11,20 @@
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '9143abcdcec93854a31b4933f771354cd66c550a',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'heroku/heroku-buildpack-php' => array(
+            'pretty_version' => 'v259',
+            'version' => '259.0.0.0',
+            'reference' => 'b27625c9b760101392b7a93d515422b4a9e77a7f',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../heroku/heroku-buildpack-php',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
