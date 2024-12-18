@@ -28,7 +28,8 @@ RUN docker-php-ext-install \
     gd \
     intl \
     xml \
-    curl
+    curl \
+    sockets
 
 # Install MongoDB extension dependencies
 RUN apt-get update && apt-get install -y \
