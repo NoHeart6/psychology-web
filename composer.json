@@ -1,5 +1,9 @@
 {
+    "name": "wisnu/php-mongodb-app",
+    "description": "PHP MongoDB Application",
+    "type": "project",
     "require": {
+        "php": "^8.2",
         "mongodb/mongodb": "^1.12",
         "ext-mongodb": "*",
         "heroku/heroku-buildpack-php": "*"
@@ -8,5 +12,12 @@
         "psr-4": {
             "App\\": "src/"
         }
-    }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
